@@ -1,0 +1,83 @@
+.google-image {
+    height: 92px;
+    width: 272px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+#search_bar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 20px;
+    width: 30%;
+
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#google_button{
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+    
+  }
+  
+  nav li {
+    float: right;
+  }
+  
+   nav li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+   nav li a:hover {
+    color:black;
+  }
+
+  /* Footer style */
+
+  footer li {
+    float: left;
+    ;
+  }
+
+  footer li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+   footer li a:hover {
+    color:black;
+  }
+
+  .footer {
+      position: fixed;
+      bottom: 0;
+  }
+
+  
+ 
