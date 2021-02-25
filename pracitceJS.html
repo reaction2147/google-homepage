@@ -1,24 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Page Title</title>
-  <meta charset="UTF-8"/>
+  <meta charset="utf-8">
+  <title>Function scope example</title>
 </head>
 <body>
+
   <script>
+    function add7() {
+    let a = 7;
+    let b = 4;
+    console.log(a+b); 
+    }
 
+    add7();
 
-    // Your JavaScript goes here!
-    let myText = 'I am a string';
-let newString = myText.replace('string', 'sausage');
-console.log(newString);
-// the replace() string function takes a source string,
-// and a target string and replaces the source string,
-// with the target string, and returns the newly formed string
+    function multiply() {
+        let a = 4;
+        let b = 5;
+        console.log(a*b);
+    }
+
+    multiply();
+    
+    function capitalize (word) {
+   let a = 'TESTing'
+    return a.charAt(0).toUpperCase() + a.slice(1);
+}
+
+console.log(capitalize())
+
+function lastletter(word) {
+    let a ="string"
+    return a.slice(a.length -1)
+}
+
+console.log(lastletter());
 
 
 
   </script>
-
 </body>
 </html>
