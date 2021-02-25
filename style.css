@@ -12,8 +12,12 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    height: 20px;
-    width: 30%;
+    height: 35px;
+    width: 37%;
+    border-radius: 25px;
+   display: flex;
+   border: 1px solid lightgrey;
+  
 
 }
 .flex {
@@ -23,7 +27,33 @@
 }
 
 #google_button{
-    margin-right: 10px;
+    margin-right: 20px;
+    border-radius: 15px;
+   border: 1px solid rgb(247, 247, 247);
+   height: 35px;
+   background-color: rgb(247, 247, 247);
+   text-decoration-color: rgb(233, 233, 233);
+   color: gray;
+   width: 120px;
+}
+
+#google_lucky{
+  margin-right: 20px;
+  border-radius: 15px;
+ border: 1px solid rgb(247, 247, 247);
+ height: 35px;
+ background-color: rgb(247, 247, 247);
+ text-decoration-color: rgb(233, 233, 233);
+ color: gray;
+ width: 120px;
+}
+
+#google_lucky:hover {
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+#google_button:hover{
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
 }
 /* Navigation */
 
@@ -104,4 +134,17 @@ ul {
   
  .footer-main-container {
    bottom: 0;
+ }
+
+ 
+ #search_bar:focus {
+  outline: none;
+ }
+
+ #search_bar:hover{
+   box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+ }
+
+ .input {
+   padding-left: 20px !important  ;
  }
