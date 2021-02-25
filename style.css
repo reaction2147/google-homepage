@@ -90,15 +90,18 @@ ul {
     color:black;
   }
 
-  .footer {
-      position: fixed;
+  .footer-main-container {
+      position: absolute;
       bottom: 0;
       left: 0px;
       width: 100%;
       background-color: rgb(245, 245, 245);
+      padding-top: 18px;
   }
   .flex_footer {
     margin-left:  20px;
   }
   
- 
+ .footer-main-container {
+   bottom: 0;
+ }
